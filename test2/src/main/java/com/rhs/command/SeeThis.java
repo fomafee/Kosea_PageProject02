@@ -44,4 +44,3 @@ public class SeeThis {
 	}
 
 }
->>>>>>> branch 'master' of https://github.com/fomafee/Kosea_PageProject02
