@@ -4,7 +4,11 @@ package com.rhs.command;
 /**
  * commit test
  * @author nssong
+<<<<<<< HEAD
  * asfasf
+=======
+ * asdadad
+>>>>>>> branch 'master' of https://github.com/fomafee/Kosea_PageProject02
  */
 
 public class SeeThis {
