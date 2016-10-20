@@ -25,10 +25,10 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Deals</a></li>
-        <li><a href="#">Stores</a></li>
-        <li><a href="#">Contact</a></li>
+        <li id="product"><a href="#this">Products</a></li>
+        <li><a href="#this">Deals</a></li>
+        <li><a href="#this">Stores</a></li>
+        <li><a href="#this">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
@@ -73,5 +73,26 @@
     <button type="button" class="btn btn-danger">Sign Up</button>
   </form>
 </footer>
+
+<%@ include file="/WEB-INF/include/include-body.jspf" %>
+<script type="text/javascript">
+        var gfv_count = 1;
+     
+        $(document).ready(function(){
+            $("#product").on("click", function(e){ //목록으로 버튼
+                e.preventDefault();
+                fn_openProduct();
+            });
+             
+        });
+         
+        function fn_openProduct(){
+            var comSubmit = new ComSubmit();
+            comSubmit.setUrl("<c:url value='openProduct.do' />");
+            comSubmit.submit();
+        }
+         
+    </script>
+    
 </body>
 </html>
