@@ -1,5 +1,10 @@
 package com.rhs.command;
 
+/**
+ * test
+ * @author gg
+ *
+ */
 public class SeeThis {
 
 	public void main(String args[]) {
