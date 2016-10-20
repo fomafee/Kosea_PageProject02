@@ -1,5 +1,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="UTF-8"%>
 <html>
 <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -11,7 +12,7 @@
 <h1>
 	메인화면
 </h1>
-ㅁㄴㅇㄻㄴㅇ러ㅏㅣㅁㄴ어ㅏ
+UTF-8로 맞춥니다
 
 </body>
 </html>
