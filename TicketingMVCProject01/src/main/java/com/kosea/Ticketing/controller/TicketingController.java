@@ -14,7 +14,8 @@ public class TicketingController {
 	
 	@RequestMapping(value="/Ticketing/openProduct.do")
     public ModelAndView openProduct(@RequestParam Map<String, Object> paramMap) throws Exception{
-		ModelAndView mv = new ModelAndView("/product/Product");
+		System.out.println("ModelAndView()");
+		ModelAndView mv = new ModelAndView("Product");
          
         return mv;
     }
