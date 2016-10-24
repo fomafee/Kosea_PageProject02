@@ -35,5 +35,6 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/onam3/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"/>
 	<classpathentry kind="lib" path="C:/Users/onam3/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/onam3/.m2/repository/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
